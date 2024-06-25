@@ -36,7 +36,7 @@ function Home() {
   }
 
   async function deleteUsers(id) {
-   await api.delete(`/usuarios${id}`)
+   await api.delete(`/usuarios/${id}`)
  
    getUsers ();
    
